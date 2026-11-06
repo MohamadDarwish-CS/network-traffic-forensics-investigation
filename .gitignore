@@ -1,0 +1,19 @@
+
+# Original network captures and archives
+Evidence/
+*.pcap
+*.pcapng
+*.zip
+
+# Extracted suspicious files
+*.exe
+*.dll
+*.ps1
+
+# Temporary files
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

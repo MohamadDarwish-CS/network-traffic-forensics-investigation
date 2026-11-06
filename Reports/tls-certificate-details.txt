@@ -1,0 +1,218 @@
+Frame 19307: 1092 bytes on wire (8736 bits), 1092 bytes captured (8736 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan 22, 2025 19:59:46.469787000 UTC
+    UTC Arrival Time: Jan 22, 2025 19:59:46.469787000 UTC
+    Epoch Arrival Time: 1737575986.469787000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000258000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 889.939650000 seconds]
+    Frame Number: 19307
+    Frame Length: 1092 bytes (8736 bits)
+    Capture Length: 1092 bytes (8736 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:tls:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509ce:x509ce]
+Ethernet II, Src: Cisco_c2:3a:46 (08:d0:9f:c2:3a:46), Dst: Intel_26:4a:74 (00:d0:b7:26:4a:74)
+    Destination: Intel_26:4a:74 (00:d0:b7:26:4a:74)
+        Address: Intel_26:4a:74 (00:d0:b7:26:4a:74)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Cisco_c2:3a:46 (08:d0:9f:c2:3a:46)
+        Address: Cisco_c2:3a:46 (08:d0:9f:c2:3a:46)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 45.125.66.32, Dst: 10.1.17.215
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1078
+    Identification: 0x5218 (21016)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 41
+    Protocol: TCP (6)
+    Header Checksum: 0x7035 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 45.125.66.32
+    Destination Address: 10.1.17.215
+Transmission Control Protocol, Src Port: 2917, Dst Port: 49792, Seq: 1, Ack: 120, Len: 1038
+    Source Port: 2917
+    Destination Port: 49792
+    [Stream index: 262]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 1038]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 718577329
+    [Next Sequence Number: 1039    (relative sequence number)]
+    Acknowledgment Number: 120    (relative ack number)
+    Acknowledgment number (raw): 1555215636
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 510
+    [Calculated window size: 65280]
+    [Window size scaling factor: 128]
+    Checksum: 0xa2f4 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.378125000 seconds]
+        [Time since previous frame in this TCP stream: 0.000258000 seconds]
+    [SEQ/ACK analysis]
+        [iRTT: 0.193518000 seconds]
+        [Bytes in flight: 1038]
+        [Bytes sent since last PSH flag: 1038]
+    TCP payload (1038 bytes)
+Transport Layer Security
+    TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 55
+        Handshake Protocol: Server Hello
+            Handshake Type: Server Hello (2)
+            Length: 51
+            Version: TLS 1.2 (0x0303)
+            Random: f606e3fad512d9022be591add451fb66df7b4e8fb7e9cbc0a6094765946a0a02
+                GMT Unix Time: Oct 19, 2100 16:31:54.000000000 UTC
+                Random Bytes: d512d9022be591add451fb66df7b4e8fb7e9cbc0a6094765946a0a02
+            Session ID Length: 0
+            Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+            Compression Method: null (0)
+            Extensions Length: 11
+            Extension: renegotiation_info (len=1)
+                Type: renegotiation_info (65281)
+                Length: 1
+                Renegotiation Info extension
+                    Renegotiation info extension length: 0
+            Extension: ec_point_formats (len=2)
+                Type: ec_point_formats (11)
+                Length: 2
+                EC point formats Length: 1
+                Elliptic curves point formats (1)
+                    EC point format: uncompressed (0)
+            [JA3S Fullstring: 771,156,65281-11]
+            [JA3S: cc597ba2e10555280b8348b1b2395e86]
+    TLSv1.2 Record Layer: Handshake Protocol: Certificate
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 964
+        Handshake Protocol: Certificate
+            Handshake Type: Certificate (11)
+            Length: 960
+            Certificates Length: 957
+            Certificates (957 bytes)
+                Certificate Length: 954
+                Certificate [truncated]: 308203b63082029ea003020102021423e4a7bc5f3bd448f6005dc829905d893f634f98300d06092a864886f70d01010b0500307b310b3009060355040613025858310c300a06035504080c034e2f41310c300a06035504070c034e2f413120301e060355040a0c1753656c
+                    signedCertificate
+                        version: v3 (2)
+                        serialNumber: 0x23e4a7bc5f3bd448f6005dc829905d893f634f98
+                        signature (sha256WithRSAEncryption)
+                            Algorithm Id: 1.2.840.113549.1.1.11 (sha256WithRSAEncryption)
+                        issuer: rdnSequence (0)
+                            rdnSequence: 5 items (id-at-commonName=45.125.66.32: Self-signed certificate,id-at-organizationName=Self-signed certificate,id-at-localityName=N/A,id-at-stateOrProvinceName=N/A,id-at-countryName=XX)
+                                RDNSequence item: 1 item (id-at-countryName=XX)
+                                    RelativeDistinguishedName item (id-at-countryName=XX)
+                                        Object Id: 2.5.4.6 (id-at-countryName)
+                                        CountryName: XX
+                                RDNSequence item: 1 item (id-at-stateOrProvinceName=N/A)
+                                    RelativeDistinguishedName item (id-at-stateOrProvinceName=N/A)
+                                        Object Id: 2.5.4.8 (id-at-stateOrProvinceName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: N/A
+                                RDNSequence item: 1 item (id-at-localityName=N/A)
+                                    RelativeDistinguishedName item (id-at-localityName=N/A)
+                                        Object Id: 2.5.4.7 (id-at-localityName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: N/A
+                                RDNSequence item: 1 item (id-at-organizationName=Self-signed certificate)
+                                    RelativeDistinguishedName item (id-at-organizationName=Self-signed certificate)
+                                        Object Id: 2.5.4.10 (id-at-organizationName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: Self-signed certificate
+                                RDNSequence item: 1 item (id-at-commonName=45.125.66.32: Self-signed certificate)
+                                    RelativeDistinguishedName item (id-at-commonName=45.125.66.32: Self-signed certificate)
+                                        Object Id: 2.5.4.3 (id-at-commonName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: 45.125.66.32: Self-signed certificate
+                        validity
+                            notBefore: utcTime (0)
+                                utcTime: 2025-01-22 15:24:47 (UTC)
+                            notAfter: utcTime (0)
+                                utcTime: 2027-01-22 15:24:47 (UTC)
+                        subject: rdnSequence (0)
+                            rdnSequence: 5 items (id-at-commonName=45.125.66.32: Self-signed certificate,id-at-organizationName=Self-signed certificate,id-at-localityName=N/A,id-at-stateOrProvinceName=N/A,id-at-countryName=XX)
+                                RDNSequence item: 1 item (id-at-countryName=XX)
+                                    RelativeDistinguishedName item (id-at-countryName=XX)
+                                        Object Id: 2.5.4.6 (id-at-countryName)
+                                        CountryName: XX
+                                RDNSequence item: 1 item (id-at-stateOrProvinceName=N/A)
+                                    RelativeDistinguishedName item (id-at-stateOrProvinceName=N/A)
+                                        Object Id: 2.5.4.8 (id-at-stateOrProvinceName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: N/A
+                                RDNSequence item: 1 item (id-at-localityName=N/A)
+                                    RelativeDistinguishedName item (id-at-localityName=N/A)
+                                        Object Id: 2.5.4.7 (id-at-localityName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: N/A
+                                RDNSequence item: 1 item (id-at-organizationName=Self-signed certificate)
+                                    RelativeDistinguishedName item (id-at-organizationName=Self-signed certificate)
+                                        Object Id: 2.5.4.10 (id-at-organizationName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: Self-signed certificate
+                                RDNSequence item: 1 item (id-at-commonName=45.125.66.32: Self-signed certificate)
+                                    RelativeDistinguishedName item (id-at-commonName=45.125.66.32: Self-signed certificate)
+                                        Object Id: 2.5.4.3 (id-at-commonName)
+                                        DirectoryString: uTF8String (4)
+                                            uTF8String: 45.125.66.32: Self-signed certificate
+                        subjectPublicKeyInfo
+                            algorithm (rsaEncryption)
+                                Algorithm Id: 1.2.840.113549.1.1.1 (rsaEncryption)
+                            subjectPublicKey [truncated]: 3082010a0282010100b0ee075dbbc2553c43b6fc2cdb7f5de89dcf6b82ae7091907877e5cee84aab2d900aac3566e97a70aa9e5529ff733db164641a8c23585d926fd7909ba3a4f450b850c72ef39c4249bcd8a4afef3bdd61c02cc792062ecae934eab4da05d4164
+                                modulus: 0x00b0ee075dbbc2553c43b6fc2cdb7f5de89dcf6b82ae7091907877e5cee84aab2d900aac…
+                                publicExponent: 65537
+                        extensions: 2 items
+                            Extension (id-ce-subjectAltName)
+                                Extension Id: 2.5.29.17 (id-ce-subjectAltName)
+                                GeneralNames: 1 item
+                                    GeneralName: iPAddress (7)
+                                        iPAddress: 45.125.66.32
+                            Extension (id-ce-subjectKeyIdentifier)
+                                Extension Id: 2.5.29.14 (id-ce-subjectKeyIdentifier)
+                                SubjectKeyIdentifier: a4f046cc5cdadf32ee0a6739c215766921310dce
+                    algorithmIdentifier (sha256WithRSAEncryption)
+                        Algorithm Id: 1.2.840.113549.1.1.11 (sha256WithRSAEncryption)
+                    Padding: 0
+                    encrypted [truncated]: 493a7b3a7f078320ba5e132d6621f310e4baa08491e826ba3ab691008c7b23fa6fad8607e5615e4a1fb33ec7c192c555b5ea09d730c93513fa7ce8328432eee937ef7ae862237fd375f5c42bb89fb8d67c82439a99fe0d27768d401a48c6cfe7bb5b538e89bba8c87a54d586
+    TLSv1.2 Record Layer: Handshake Protocol: Server Hello Done
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 4
+        Handshake Protocol: Server Hello Done
+            Handshake Type: Server Hello Done (14)
+            Length: 0
+
