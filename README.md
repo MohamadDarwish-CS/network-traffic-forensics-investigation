@@ -18,7 +18,7 @@ The investigation was conducted in an isolated Ubuntu Server virtual laboratory 
 |---|---|
 | Evidence | January 22, 2025 traffic analysis exercise |
 | Total packets | 39,427 |
-| Capture duration | Approximately 5 minutes 22 seconds |
+| Capture duration | Approximately 53 minutes 22 seconds |
 | Investigated workstation | 10.1.17.215 |
 | Suspicious HTTP endpoint | 5.252.153.241 |
 | Suspicious TLS endpoint | 45.125.66.32 |
