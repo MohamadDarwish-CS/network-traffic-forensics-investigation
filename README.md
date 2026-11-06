@@ -1,6 +1,6 @@
 # Network Traffic Investigation & Threat Analysis
 
-### Cybersecurity Portfolio | Project #2
+### Cybersecurity Portfolio | Project
 
 **Network Forensics | Incident Investigation | Threat Analysis | Wireshark | TShark**
 
